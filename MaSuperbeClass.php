@@ -12,4 +12,8 @@ class MaSuperbeClass {
 
 }
 
+$instance = new MaSuperbeClass() ; 
+$username = $instance->spliterStringRomain("\\","aipds\\romain") ;
+var_dump($username) ; 
+
 ?>
