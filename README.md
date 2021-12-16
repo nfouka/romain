@@ -9,7 +9,8 @@ Utilisation :
 git clone https://github.com/nfouka/romain
 
 
- $instance = new MaSuperbeClass() ;
-         $username = $instance->spliterStringRomain("\\","aipds\\romain") ;
+$instance = new MaSuperbeClass() ; 
+$username = $instance->spliterStringRomain("\\","aipds\\romain") ;
+var_dump($username) ; 
          
          
